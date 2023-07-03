@@ -1,0 +1,13 @@
+admin login: driverless
+paswword: _J6@8je;wH%#6283MJGH23skd32
+
+header('Access-Control-Allow-Origin: http://localhost:5173');
+header('Content-Type: application/json');
+
+function test(){
+
+  $user = $_POST['name'];
+  $response = array('message' => "Hello from server: $user");
+  
+  echo json_encode($response);
+}

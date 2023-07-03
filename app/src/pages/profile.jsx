@@ -46,8 +46,14 @@ function Cards() {
               defaultValue={fullName}
               onChange={() => setMessage(null)}
             />
-            <Input size="lg" label="Email" name="email" defaultValue={email} />
-            onChange={() => setMessage(null)}
+            <Input
+              size="lg"
+              label="Email"
+              name="email"
+              defaultValue={email}
+              onChange={() => setMessage(null)}
+            />
+
             <Input
               size="lg"
               label="Date of Birth"
