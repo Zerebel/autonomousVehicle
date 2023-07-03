@@ -189,8 +189,7 @@ export const Testimonial = () => {
   );
 };
 
-export const phpServer =
-  "https://599d-41-210-15-70.ngrok-free.app/autonomousVehicle/app/php/server.php";
+export const phpServer = "https://903d-172-190-182-181.ngrok-free.app/";
 
 const HorizontalRule = ({ color }) => {
   return (

@@ -45,17 +45,22 @@ function ContactUS() {
               size="lg"
               label="Name"
               required
+              name="fullName"
               onChange={() => setMessage(false)}
+              type="text"
             />
             <Input
               size="lg"
               label="Email"
               required
+              name="email"
+              type="email"
               onChange={() => setMessage(false)}
             />
             <Textarea
               label="Message"
               required
+              name="message"
               onChange={() => setMessage(false)}
             ></Textarea>
           </div>
